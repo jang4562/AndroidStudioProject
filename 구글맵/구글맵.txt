@@ -1,0 +1,23 @@
+C:\Users\수강생\.android\debug.keystore
+
+
+C:\Program Files\Java\jdk-11.0.1\bin
+
+keytool.exe -list -v -keystore C:\Users\수강생\.android\debug.keystore
+
+android
+
+SHA1: 6B:23:53:24:5F:48:7E:F1:44:F9:1E:16:0B:C5:BF:C1:35:C0:2A:A1
+
+https://code.google.com/apis/console
+
+MapEx1
+
+AIzaSyDYnddt2wGjvfJ838V6_-RXB24mDKfubN8
+
+
+Gradle Scripts -> build.gradle -> dependencies 에 추가
+implementation 'com.google.android.gms:play-services-location:16.0.0'
+implementation 'com.google.android.gms:play-services-maps:16.0.0'
+
+AndroidManifest.xml 코드추가 api코드 추가
